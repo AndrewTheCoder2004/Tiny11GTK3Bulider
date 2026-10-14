@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Tiny11Builder.Gtk</RootNamespace>
+    <AssemblyName>Tiny11Builder.Gtk</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="GtkSharp" Version="3.24.24.95" />
+    <ProjectReference Include="..\Tiny11Builder.Portable.Core\Tiny11Builder.Portable.Core.csproj" />
+  </ItemGroup>
+</Project>
